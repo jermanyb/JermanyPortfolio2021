@@ -100,7 +100,7 @@ span{
 
 
 /* ---  (Desktop) Groups & Items --- */
-@media all and (max-width:902px){
+@media all and (max-width:900px){
 	
 form label {
 	display: flex;
