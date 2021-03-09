@@ -33,6 +33,26 @@ footer {
   	align-items: center;
 }
 
+.nav {
+	display: flex;
+	padding-top: 20px;
+	flex-direction: row;
+	padding-bottom: 0;
+	justify-content: center;
+	
+}
+
+.nav-el{
+	margin-right: 20px;
+	text-decoration: none;
+
+}
+
+.item a{
+	text-decoration: none;
+	color: rgb(33, 112, 177);
+}
+
 img {
 	width: 200px;
 	height: 200px;
@@ -100,7 +120,7 @@ span{
 
 
 /* ---  (Desktop) Groups & Items --- */
-@media screen and (min-width:600px){
+@media all and (min-width:624px){
 	
 form label {
 	display: flex;
@@ -119,20 +139,3 @@ form label {
   }
 }
 
-@media screen and (min-width: 1200px) {
-	form label {
-	display: flex;
-	width: 50%;
-  }
-  form button {
-	display: flex;
-  }
-  form input {
-	width: 50%;
-	min-height: 30px;
-  }
-  form textarea {
-	width: 50%;
-	min-height: 50px;
-  }
-  }

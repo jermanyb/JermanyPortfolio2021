@@ -19,56 +19,35 @@
         </div>
     </header>
 <!--Intro -->
-    <main>       
-        <div class="accordion" id="accordionExample">
-             <div class="card">
-                <div class="card-header" id="headingOne">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Who is Jermany?
-                        </button>
-                    </h2>
-                </div>
-                  
-                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                    <div class="card-body">
+    <main>
+        <div class="nav item" id="navBar">
+            <a href="#about"><h4 class="nav-el">About Me</h4></a>
+            <a href="#projects"><h4 class="nav-el">Projects</h4></a>
+            <a href="#contact"><h4 class="nav-el">Contact</h4></a>
+        </div>
+        <section id="about">
+            <div class="aboutBody">
+                            <h2>About Me</h2>
+
                         <p>I am a Software Engineering student and I reside in Raleigh, NC. I graduated from North Carolina Agricultural & Technical State University
                         with a Bachelors Degree in Animal Science. </p>
                         <p>Aside from loving on animals, I paint, I practice yoga and try to squeeze in daily meditations. It has become a goal of mine to keep my space as calm and peaceful 
                             as possible because the outside world can be pretty chaotic. I am learning about chakras and 
                         having fun experimenting with different methods to open them up. </p>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingTwo">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Software Engineering
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                    <div class="card-body">
-                        As a new student at Thinkful, I am excited to see where I will fit into the tech world. Learning Javascript has been one of the most challenging things
+                    
+                            <h2>Software Engineering</h2>
+                     
+                        <p>As a new student at Thinkful, I am excited to see where I will fit into the tech world. Learning Javascript has been one of the most challenging things
                         I've ever tried to do. It's teaching me how to study and become more disciplined. Programming is also teaching me to ask for help. I have always 
                         struggled with that before. Working in groups and getting feed back from others used to terrify me. When working with others, 
-                        there are less errors and more brains being put together to solve a problem. 
+                        there are less errors and more brains being put together to solve a problem. </p>
                         <p>So far I am really enjoying the Front End Development portion of the program. I hope that I get to show more of my creative side through web pages.</p>
-                    </div>
-                </div>
             </div>
+        </section>
+                    
  <!--Projects-->          
-            <div class="card">
-                <div class="card-header" id="headingThree">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Projects
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                    <div class="card-body">
+        <section id="projects">
+                                <h2>Projects</h2>
                                 <div class="item">
                                     <img src ="Screenshot.png" alt="placeholder">
                                     <h4>Project 1</h4>
@@ -91,11 +70,7 @@
                                       Project:<a href="https://github.com/jermanyb" target="_blank">Placeholder</a><br />
                                    </p>
                                 </div>
-                    </div>
-                        
-                </div>
-            </div>
-        </div>
+        </section>
 
 <!--Contact Info-->
     <section id="contact" class="group">
