@@ -139,3 +139,10 @@ form label {
   }
 }
 
+@media all and (min-width:1024px){
+	form textarea {
+		width: 52%;
+		min-height: 50px;
+	  }
+
+	}
